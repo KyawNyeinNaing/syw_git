@@ -1,0 +1,33 @@
+index
+.htacccess=> 
+
+-folder
+-composer dump-autoload -o
+-
+apache-> .htacess-> rewriterule ->qsq is parameter
+
+-   router=> $uri = $_GET['uri']??'';       //nullable      requier '../core/bootstrap.php';
+-   make all require => bootstrap.php       require 'router.php';
+-   explode() =>  string to array
+-   array value => only take value in array and// start index 0
+-   for view => config.php  =>    BASE_PATH=>
+-   extract=>change array to variable  => loop and construct variable 
+
+model
+-----
+-    DB.php =>  connection
+-   create database and table => php_adv    &&  id ,title, content, date=>  varchar(255),datetime           (current time)
+
+-   homeController  =>new db;
+
+-   config.php  =>  DB_host, user,DB_PASS
+-   Post.php (model) =>     
+
+
+-   Design=> Bootstrap Ecoomerce    ,zencode
+
+Controller
+----------
+-   PostController  =>  
+-   Post View       =>  index.php
+-   function.php     => url()

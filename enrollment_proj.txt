@@ -1,0 +1,23 @@
+Student Name
+Student Email
+Student Phone
+
+1. Enrollment Form
+2. Department of Head Office Form
+3. Enrollment Form + Std ID card + Amount (magzaine, calendar, book) -> return new std ID card
+4. Give amount
+
+
+1 Enrollmnt Form
+----------------
+Name
+Father Name
+Father Job
+NRC No. -> 3 (std, dad, mom)
+Religion
+Nationality
+Address
+Current Address
+Ph Number
+Contact Number
+
