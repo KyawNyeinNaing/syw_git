@@ -1,0 +1,29 @@
+1. resources/js/components/
+	create Task.vue
+2. resources/js/components/app.js
+
+
+
+
+
+
+Localization
+============
+Route::get('localization/{locale}','LocalizationController@index');
+
+controller
+ 		public function index($lang)
+    		{
+       		 session(['locale' => $lang]);
+      	 	 return back();
+   		}
+
+ LangWare=>	if(session('locale')) {
+         	   app()->setLocale(session('locale'));
+       		 }
+
+     		 return $next($request);
+   		} 
+
+
+Kernal=>  \App\Http\Middleware\LangWare::class,
